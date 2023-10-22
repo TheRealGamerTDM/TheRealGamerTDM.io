@@ -1,0 +1,172 @@
+.banner {
+    background-image: url("Twitch Banner.png");
+    background-size: cover;
+    width: 100%;
+    height: 50px;
+    padding:45px;
+   color:lightblue;
+
+}
+h1{
+    color: #ffffff;
+}
+h2{
+    color: #ff0000;
+}
+h3{
+    color: #ff0000;
+    text-size-adjust: 3px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+body{
+    background-image: url("Black Background.png");
+    background-size:cover;
+    text-align: center;
+}
+*{
+    margin:0;
+    padding:0;
+    
+    }
+    
+  
+    .liNav a{
+    display: block;
+    color: cadetblue;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    }
+    .liNav a:hover{
+        background-color: rgb(65, 65, 160);
+    }
+    .active{
+        background-color:rgb(20, 112, 116);
+    }
+    
+    
+    .ulNav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow:hidden;
+        background-color: black;
+        background-size:1000px;
+        border-right:200px solid black;
+        
+    }
+    .liNav {
+        float: left;
+    }
+    .liNav {
+        display: block;
+        color:cornflowerblue;
+        text-align:center;
+        text-decoration: none;
+        padding: 14px 16px;
+    }
+    .liNav:hover{
+        background-color: blue
+    }
+    body {
+        background-color: #c6c6c6;
+        margin: 10px;
+        color: #404040;
+      }
+      
+      #screen {
+        min-width: 450px;
+      }
+      
+      H1 {
+        clear: both;
+      }   
+      
+      
+      
+      .gridCell {
+        background-color: #8b8b8b;
+        border-top: thick double #373737;
+        border-left: thick double #373737;
+        border-right: double #FFFFFF;
+        border-bottom: double #FFFFFF;
+        width: 36px;
+        height: 36px;
+        float: left;
+      }
+      
+      #grid .gridCell:nth-child(3n+1){
+        clear:left;
+      }
+      #inventory .gridCell:nth-child(9n+1){
+        clear:left;
+      }
+      
+      .gridCell img {
+        padding:2px;
+      }
+      #result {
+        float: left;
+        text-align: center;
+        padding-top:8px;
+        box-sizing: border-box;
+        background-color: #8b8b8b;
+        border-top: thick double #373737;
+        border-left: thick double #373737;
+        border-right: double #FFFFFF;
+        border-bottom: double #FFFFFF;
+        width: 132px;
+        height: 132px;
+      }
+      
+      #recipes img {
+        float: left;
+        clear: both;
+      }
+      
+      #recipes p {
+        display: block;
+        font-weight: bold;
+        clear: both;
+        padding-top: 12px;
+        margin-bottom: 0px;
+      }
+      
+      #screen {
+        padding-top:50px;
+    }
+    #centering {
+        padding-left:500px;
+    }
+    #centering p {
+        position: relative;
+        right:100px;
+    }
+    #centering h1{
+        position: relative;
+        left:125px;
+    }
+     #centering h2 {
+         padding-bottom:20px;
+        position: relative;
+        left:115px;
+    }
+    .container{
+        width:500px;
+        height: 281px;
+        box-shadow: #ffffff;
+        margin: 10px;
+    }
+    iframe {
+        display: block;
+        align-content: center;
+        margin-left: 600px;
+     }
+     .tweet{
+        margin-top: 70px;
+     }
+     img{
+        align-items: left;
+     }
